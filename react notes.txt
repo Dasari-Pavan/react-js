@@ -75,3 +75,13 @@ which is not the case when it comes to development mode. Performance will be muc
 
 
 8.What is async and defer?
+
+
+episode -2
+
+1.installing package 
+  
+     npm install -D parcel
+   
+  install parcel as want as dev dependency 
+   types of packages parcel ,webpack,vite these arw
