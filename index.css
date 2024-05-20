@@ -1,3 +1,55 @@
-#parent{
-    color: red;
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    background-color:goldenrod;
+    
+}
+
+.logo{
+    width:125px
+    
+}
+.nav-items{
+    padding: 5px 20px;
+}
+.nav-items>ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-items>ul>li{
+    padding: 10px;
+    margin: 10px;
+}
+.res-card{
+    margin: 5px;
+    padding: 11px;
+    width: 200px;
+    border-radius:5%;
+    
+}
+.res-card:hover{
+    border-radius: 10%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    cursor: pointer;
+}   
+.search{
+    padding:30px;
+}
+
+.res-logo{
+    border-radius:5%;
+    width: 90%;
+}
+
+/* .food-details{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+     */
+
+
+.Res-container{
+    display: flex;
+    flex-wrap: wrap;
 }
